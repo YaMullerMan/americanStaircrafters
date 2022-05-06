@@ -1,5 +1,6 @@
 //  ----  ----  logic for the home page slider  ----  ----
-if (window.location.href.includes("index")) {
+if (window.location.href.includes("index") || window.location.href == "yamullerman.github.io") {
+    // Jared updated this Friday morning to include github page
     var slides = document.getElementsByClassName("imgSliderSlide");
     var dots = document.getElementsByClassName("imgSliderDot");
     var slideIndex = 1;
