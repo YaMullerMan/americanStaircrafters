@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link href="lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/fdd4513873.js" crossorigin="anonymous"></script>
   <title>American Staircrafters - Home</title>
 </head>
@@ -23,6 +24,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
     <div class="mobile-menu-container">
        <i class="mobile-menu-icon fa-solid fa-bars"></i>
@@ -32,9 +34,10 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
        </div>
     </div>
-    <button class="nav-contact-btn"><a href="contact.html">(301) 748 - 9400</a></button>
+    <button class="nav-contact-btn"><a href="contact.html">Call or Text (301) 748 - 9400</a></button>
   </header> 
 </section>
 
@@ -77,16 +80,22 @@
 
 
   <!--Image Gallery-->
-  <section class="flex">
+<section class="flex">
     
-    <div class="gallery" id="image-grid1">
-      <div class="content">
-      <p>Custom built stairs:</p>
-      <a href="images/stairs/10.jpg" data-lightbox="mygallery" data-title="BEFORE"><img src="images/stairs/9.jpg"></a>
-      <a class="big-img" href="images/stairs/10.jpg" data-lightbox="mygallery" data-title="BEFORE">More</a>
-      </div>
+      <div>
+        <div class="imgSliderSlider" onmouseleave="slideChange()" onmouseenter="slideStop()">
+            <div class="imgSliderSlide">
+                <img src="images/stairs/10.jpg" alt="old picture"/>
+            </div>
+            <div class="imgSliderSlide">
+                <img src="images/stairs/9.jpg" alt="Fairchild"/>
+            </div>
 
-      <div class="content">
+            <a class="imgSliderPrev" onclick="prevSlide()" role="button"><i class="fa-solid fa-chevron-left"></i></a>
+            <a class="imgSliderNext" onclick="nextSlide()" role="button"><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+      <!--<div class="content">
       <p>Refinish an existing staircase:</p>
       <a href="images/stairs/8.jpg" data-lightbox="mygallery" data-title="BEFORE"><img src="images/stairs/7.jpg"></a>
       <a class="big-img" href="images/stairs/8.jpg" data-lightbox="mygallery" data-title="BEFORE">Before</a>
@@ -115,7 +124,7 @@
       <a href="images/stairs/11.jpg" data-lightbox="mygallery" data-title="BEFORE"><img src="images/stairs/12.jpg"></a>
       <a class="big-img" href="images/stairs/11.jpg" data-lightbox="mygallery" data-title="BEFORE">Before</a>
       </div>
-    </div>
+    </div> -->
 
   </section>
 
@@ -146,6 +155,11 @@
           <p>Straight Run Stairs</p>
           <p>Carpet Stairs</p>
       </div>
+      <div class="types">
+          <p>Premade Stairs</p>
+          <p>Oak Stairs</p>
+          <p>Pine Stair Overlay</p>
+      </div>
     </div>
   </div>
 </section>
@@ -170,6 +184,7 @@
         <img src="images/instagram.svg">
         <img src="images/brand.svg">
       </div> -->
+      <div class="footer-cities">Frederick, Urbana, Rockville, Middletown, Hagerstown, Gaithersburg, Germantown, Damascus, North Potomac, Darnstown, Walkersville</div>
     </div>
   </div>
 </section>
@@ -201,5 +216,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
      <script src="js/script.js"></script>
+     <script src="lightbox2-2.11.1/dist/js/lightbox.js"></script>
 </body>
 </html>

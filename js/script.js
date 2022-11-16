@@ -1,5 +1,5 @@
 //  ----  ----  logic for the home page slider  ----  ----
-if (window.location.href.includes("index") || window.location.href == "yamullerman.github.io") {
+if (window.location.href.includes("index") || window.location.href == "https://www.americanstaircrafters.com/" || window.location.href == "http://www.americanstaircrafters.com/") {
     // Jared updated this Friday morning to include github page
     var slides = document.getElementsByClassName("imgSliderSlide");
     var dots = document.getElementsByClassName("imgSliderDot");
@@ -110,3 +110,73 @@ function jaredHelp() {
     }
 }
 menuIcon.addEventListener("click", jaredHelp)
+
+
+
+// this controls the mobile nav click functionality
+$(document).ready(function () {
+    $('#nav-icon').click(function () {
+        $('.mobile-nav').toggleClass('mobile-nav-open');
+    });
+});
+
+//  ----  ----  script for the home page slider  ----  ----
+if (window.location.pathname == '/Users/fanofthe5/Desktop/American%20Staircrafter/stairs.html') {
+    var slides = document.getElementsByClassName("imgSliderSlide");
+    var dots = document.getElementsByClassName("imgSliderDot");
+    var slideIndex = 1;
+    var interval;
+
+
+    slides[slideIndex - 1].classList.add("activeSlide");
+
+    function slideChange() {
+        interval = setInterval(nextSlide, 5000);
+    }
+
+    slideChange();
+
+    function slideStop() {
+        clearInterval(interval);
+    }
+
+    function dotSlide(x) {
+        for (i = 0; i < slides.length; i++) {
+            if (slides[i].classList.contains("activeSlide")) {
+                slides[i].classList.remove("activeSlide");
+            }
+        }
+        var y = x - 1;
+        slides[y].classList.add("activeSlide");
+        slideIndex = x;
+    }
+
+    function nextSlide() {
+        if (slideIndex >= slides.length) {
+            var x = slides.length;
+            var y = x - 1;
+            slides[y].classList.remove("activeSlide");
+            slideIndex = 1;
+            slides[slideIndex - 1].classList.add("activeSlide");
+        } else {
+            slides[slideIndex - 1].classList.remove("activeSlide");
+            slideIndex++;
+            slides[slideIndex - 1].classList.add("activeSlide");
+        }
+    }
+
+    function prevSlide() {
+        var a = slideIndex - 1;
+        if (slideIndex <= 1) {
+            slides[slideIndex - 1].classList.remove("activeSlide");
+            var x = slides.length;
+            var y = x - 1;
+            slides[y].classList.add("activeSlide");
+            slideIndex = x;
+        } else {
+            slides[slideIndex - 1].classList.remove("activeSlide");
+            slideIndex--;
+            slides[slideIndex - 1].classList.add("activeSlide");
+        }
+    }
+}
