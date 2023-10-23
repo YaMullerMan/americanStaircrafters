@@ -1,0 +1,20 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home3/ameridg3/repositories/AS
+        - /bin/cp -R css $DEPLOYPATH
+        - /bin/cp -R gallery pics $DEPLOYPATH
+        - /bin/cp -R images $DEPLOYPATH
+        - /bin/cp -R js $DEPLOYPATH
+        - /bin/cp -R lightbox2-2.11.1 $DEPLOYPATH
+        - /bin/cp -R Montserrat $DEPLOYPATH
+        - /bin/cp -R stair pictures $DEPLOYPATH
+        - /bin/cp about.html $DEPLOYPATH
+        - /bin/cp contact.html $DEPLOYPATH
+        - /bin/cp contact.php $DEPLOYPATH
+        - /bin/cp databaseconnect.php $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp products.html $DEPLOYPATH
+        - /bin/cp rails.html $DEPLOYPATH
+        - /bin/cp README.md $DEPLOYPATH
+        - /bin/cp stairs.html $DEPLOYPATH

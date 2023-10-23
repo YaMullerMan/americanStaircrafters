@@ -1,6 +1,5 @@
 //  ----  ----  logic for the home page slider  ----  ----
-if (window.location.href.includes("index") || window.location.href == "https://www.americanstaircrafters.com/" || window.location.href == "http://www.americanstaircrafters.com/") {
-    // Jared updated this Friday morning to include github page
+if (window.location.href.includes("index") || window.location.pathname == "/") {
     var slides = document.getElementsByClassName("imgSliderSlide");
     var dots = document.getElementsByClassName("imgSliderDot");
     var slideIndex = 1;
@@ -25,15 +24,12 @@ if (window.location.href.includes("index") || window.location.href == "https://w
     }
 
     makeDots();
-
     dots[slideIndex - 1].classList.add("active");
-
     slides[slideIndex - 1].classList.add("activeSlide");
 
     function slideChange() {
         interval = setInterval(nextSlide, 100000);
     }
-
     slideChange();
 
     function slideStop() {
@@ -180,3 +176,7 @@ if (window.location.pathname == '/Users/fanofthe5/Desktop/American%20Staircrafte
         }
     }
 }
+
+
+const info = document.getElementsByClassName('info');
+console.log(info);
