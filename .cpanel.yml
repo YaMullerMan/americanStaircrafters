@@ -1,7 +1,7 @@
 ---
 deployment:
     tasks:
-        - export DEPLOYPATH=/home3/ameridg3/repositories/AS
+        - export DEPLOYPATH=/home3/ameridg3/public_html/
         - /bin/cp -R css $DEPLOYPATH
         - /bin/cp -R gallery pics $DEPLOYPATH
         - /bin/cp -R images $DEPLOYPATH
