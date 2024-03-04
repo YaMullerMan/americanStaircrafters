@@ -1,5 +1,5 @@
 //  ----  ----  logic for the home page slider  ----  ----
-if (window.location.href.includes("index") || window.location.pathname == "/") {
+if (window.location.pathname == "/" || window.location.pathname == "/American%20Staircrafter/") {
     var slides = document.getElementsByClassName("imgSliderSlide");
     var dots = document.getElementsByClassName("imgSliderDot");
     var slideIndex = 1;
@@ -11,10 +11,7 @@ if (window.location.href.includes("index") || window.location.pathname == "/") {
             var x = i + 1;
             var y =
                 '<span class="imgSliderDot" ' +
-                'onclick="dotSlide' +
-                "(" +
-                x +
-                ")" +
+                'onclick="dotSlide' + "(" + x + ")" +
                 '"></span>';
             var b = document.createElement("span");
             b.className = "imgSliderDot";
@@ -88,95 +85,33 @@ if (window.location.href.includes("index") || window.location.pathname == "/") {
 }
 
 let mobileMenu = document.getElementsByClassName('mobile-menu')[0]
-let menuIcon = document.getElementsByClassName('mobile-menu-icon')[0]
+let menuIcon = document.getElementById('nav-icon4');
 // this function toggles the mobile menu display to none or block
-function jaredHelp() {
-    let isDisplayed = false
-    if (mobileMenu.style.display == 'block') {
-        isDisplayed = true
-    }
-    if (mobileMenu.style.display == 'none') {
-        isDisplayed = false
-    }
-
-    if (isDisplayed === false) {
-        mobileMenu.style.display = 'block'
+menuIcon.addEventListener("click", () => {
+    if (mobileMenu.style.display == "block") {
+        mobileMenu.style.display = "none";
     } else {
-        mobileMenu.style.display = 'none'
+        mobileMenu.style.display = "block";
     }
-}
-menuIcon.addEventListener("click", jaredHelp)
-
-
+})
 
 // this controls the mobile nav click functionality
-$(document).ready(function () {
-    $('#nav-icon').click(function () {
-        $('.mobile-nav').toggleClass('mobile-nav-open');
-    });
-});
+// $(document).ready(function () {
+//     $('#nav-icon').click(function () {
+//         $('.mobile-nav').toggleClass('mobile-nav-open');
+//     });
+// });
 
-//  ----  ----  script for the home page slider  ----  ----
-if (window.location.pathname == '/Users/fanofthe5/Desktop/American%20Staircrafter/stairs.html') {
-    var slides = document.getElementsByClassName("imgSliderSlide");
-    var dots = document.getElementsByClassName("imgSliderDot");
-    var slideIndex = 1;
-    var interval;
-
-
-    slides[slideIndex - 1].classList.add("activeSlide");
-
-    function slideChange() {
-        interval = setInterval(nextSlide, 5000);
-    }
-
-    slideChange();
-
-    function slideStop() {
-        clearInterval(interval);
-    }
-
-    function dotSlide(x) {
-        for (i = 0; i < slides.length; i++) {
-            if (slides[i].classList.contains("activeSlide")) {
-                slides[i].classList.remove("activeSlide");
+if (document.querySelectorAll('.accordian_button')) {
+    document.querySelectorAll('.accordian_button').forEach(button => {
+        button.addEventListener('click', () => {
+            const accordianContent = button.nextElementSibling;
+            button.classList.toggle('accordian_button-active');
+            if (button.classList.contains('accordian_button-active')) {
+                accordianContent.style.maxHeight = accordianContent.scrollHeight + 'px';
+            } else {
+                accordianContent.style.maxHeight = 0;
             }
-        }
-        var y = x - 1;
-        slides[y].classList.add("activeSlide");
-        slideIndex = x;
-    }
-
-    function nextSlide() {
-        if (slideIndex >= slides.length) {
-            var x = slides.length;
-            var y = x - 1;
-            slides[y].classList.remove("activeSlide");
-            slideIndex = 1;
-            slides[slideIndex - 1].classList.add("activeSlide");
-        } else {
-            slides[slideIndex - 1].classList.remove("activeSlide");
-            slideIndex++;
-            slides[slideIndex - 1].classList.add("activeSlide");
-        }
-    }
-
-    function prevSlide() {
-        var a = slideIndex - 1;
-        if (slideIndex <= 1) {
-            slides[slideIndex - 1].classList.remove("activeSlide");
-            var x = slides.length;
-            var y = x - 1;
-            slides[y].classList.add("activeSlide");
-            slideIndex = x;
-        } else {
-            slides[slideIndex - 1].classList.remove("activeSlide");
-            slideIndex--;
-            slides[slideIndex - 1].classList.add("activeSlide");
-        }
-    }
+        });
+    });
 }
-
-
-const info = document.getElementsByClassName('info');
-console.log(info);
