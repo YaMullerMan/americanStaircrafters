@@ -4,7 +4,7 @@ include('templates/header.php');
 ?>
 
 <section>
-    <div class="rails-intro-container">
+    <div class="rails-intro-container stairs">
         <div class="rails-intro-text">
             <h2>Quality Stairs</h2>
             <hr width="20%">

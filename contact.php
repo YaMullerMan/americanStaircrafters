@@ -101,7 +101,7 @@ include('templates/header.php');
                 <input type="email" name="email" class="input-field"
                     placeholder="Email Address*" required><br><br><br>
                 <span class="error"> <?php echo $Err;?></span>
-                <textarea name="comment" rows="10" required></textarea><br>
+                <textarea name="comment" placeholder="Your question" rows="12" required></textarea><br>
                 <span class="success"> <?php echo $successMsg;?></span>
                 <br>
                 <input type="submit" name="submit" class="contact-btn">

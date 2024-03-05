@@ -674,7 +674,7 @@ h2 {
 }
 
 .service-items.priorities .info img {
-	width: 80px;
+	width: 105px;
 }
 
 .priorities .info {
@@ -862,10 +862,6 @@ h2 {
 }
 
 @media screen and (max-width: 650px) {
-	.welcome-container {
-		padding-bottom: 0;
-	}
-
 	.welcome-container p {
 		font-size: 0.9em;
 		line-height: 2em;
@@ -882,7 +878,7 @@ h2 {
 	}
 
 	.info p {
-		font-size: 0.9em;
+		/* font-size: 0.9em; */
 		line-height: 2em;
 		margin-top: 5px;
 	}
@@ -1529,4 +1525,48 @@ textarea {
 	border-radius: 7px;
 	color: #ffffff;
 	display: inline-block;
+}
+
+
+@media screen and (max-width: 500px) {
+	#mainContent {
+		font-size: 2em;
+		margin-bottom: 25px;
+	}
+
+	.welcome-container {
+		padding-top: 0;
+		padding-bottom: 50px;
+	}
+
+	.input-field {
+		font-weight: 400;
+		border-radius: 0;
+	}
+
+	.announcement-bar span {
+		font-size: 0.75em;
+	}
+
+	.info h4 {
+		font-weight: 600;
+	}
+
+	.map-container {
+		padding-left: 20px;
+		padding-right: 20px;
+		gap: 10px;
+	}
+
+	.map-container img {
+		width: 95%;
+	}
+
+	.rails-intro-container.stairs {
+		flex-wrap: wrap;
+	}
+}
+
+.linklist ul li a {
+	text-decoration: underline;
 }
