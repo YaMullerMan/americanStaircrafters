@@ -18,7 +18,7 @@ include('templates/header.php');
                 is committed to quality products, professional service, and fine
                 craftsmanship.</p>
         </div>
-        <img src="images/image2.JPG" class="rails-intro-img">
+        <img src="images/image2.JPG" class="rails-intro-img" alt="wood stair and rails with carpet runner and metal balusters">
     </div>
 </section>
 
@@ -57,9 +57,9 @@ include('templates/header.php');
             <p>Refinishing an existing staircase:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/stairs/7.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/7.jpg" alt="natural wood stair, rail and balusters" loading="lazy"
                         data-caption="After">
-                    <img src="images/stairs/8.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/8.jpg" alt="stair in the process of refinishing" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -69,9 +69,9 @@ include('templates/header.php');
             <p>Open up a walled-in stair:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/stairs/5.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/5.jpg" alt="open staircase with carpeted treads" loading="lazy"
                         data-caption="After">
-                    <img src="images/stairs/6.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/6.jpg" alt="walled in staircase" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -81,9 +81,9 @@ include('templates/header.php');
             <p>Finish out rough built stairs:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/stairs/3.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/3.jpg" alt="dark stained stairs" loading="lazy"
                         data-caption="After">
-                    <img src="images/stairs/4.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/4.jpg" alt="rough built stairs" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -93,9 +93,9 @@ include('templates/header.php');
             <p>Convert a carpeted stair to hardwood:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/stairs/2.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/2.jpg" alt="converted wooden staircase" loading="lazy"
                         data-caption="After">
-                    <img src="images/stairs/1.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/1.jpg" alt="carpeted stair" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -105,9 +105,9 @@ include('templates/header.php');
             <p>Convert a box stair to open treads</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/stairs/12.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/12.jpg" alt="stair with open treads" loading="lazy"
                         data-caption="After">
-                    <img src="images/stairs/11.jpg" alt="" loading="lazy"
+                    <img src="images/stairs/11.jpg" alt="original standard box stair" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>

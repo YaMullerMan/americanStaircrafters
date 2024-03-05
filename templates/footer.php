@@ -62,7 +62,7 @@ document.write("<sc" + "ript type='text/javascript' src='" +
 <noscript>
     <div class="statcounter">
         <a title="Web Analytics Made Easy - Statcounter"
-            href="https://statcounter.com/" target="_blank">
+            href="https://statcounter.com/" target="_blank" rel="noopener">
             <img class="statcounter"
                 src="https://c.statcounter.com/10122850/0/696efca9/0/"
                 alt="Web Analytics Made Easy - Statcounter"

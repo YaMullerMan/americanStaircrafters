@@ -6,7 +6,7 @@ include('templates/header.php');
 <!--Opening Page-->
 <section>
     <div class="rails-intro-container">
-        <img src="images/image5.JPG" class="rails-intro-img" />
+        <img src="images/image5.JPG" alt="dark wood staircase and railings with white balusters" class="rails-intro-img" />
         <div class="rails-intro-text">
             <h2>Stair Rails</h2>
             <hr width="20%" />
@@ -56,9 +56,9 @@ include('templates/header.php');
             <p>New railings for new construction:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/rails/image8.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image8.jpg" alt="grand winding staircase"  loading="lazy"
                         data-caption="After">
-                    <img src="images/rails/image7.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image7.jpg" alt="grand winding staircase unfinished"  loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -68,9 +68,9 @@ include('templates/header.php');
             <p>Swap wood railings and balusters for iron:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/rails/image10.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image10.jpg" alt="staircase side view" loading="lazy"
                         data-caption="After">
-                    <img src="images/rails/image9.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image9.jpg" alt="staircase before picture with white wood balusters" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -80,9 +80,9 @@ include('templates/header.php');
             <p>Replace exisiting rails:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/rails/image12.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image12.jpg" alt="staircase with new railings" loading="lazy"
                         data-caption="After">
-                    <img src="images/rails/image11.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image11.jpg" alt="staircase before new railings" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -92,9 +92,9 @@ include('templates/header.php');
             <p>Cable rail installation:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/rails/image6.jpg" alt="" loading="lazy"
+                    <img src="images/rails/image6.jpg" alt="modern stair with cable rails" loading="lazy"
                         data-caption="After">
-                    <img src="images/2207.JPG" alt="" loading="lazy"
+                    <img src="images/2207.JPG" alt="modern stair with cable rails" loading="lazy"
                         data-caption="After">
                 </div>
             </div>
@@ -104,9 +104,9 @@ include('templates/header.php');
             <p>Replace iron railings:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/1556.JPG" alt="" loading="lazy"
+                    <img src="images/1556.JPG" alt="staircase" loading="lazy"
                         data-caption="After">
-                    <img src="images/IMG_3289.JPG" alt="" loading="lazy"
+                    <img src="images/IMG_3289.JPG" alt="staircase" loading="lazy"
                         data-caption="Before">
                 </div>
             </div>
@@ -116,9 +116,9 @@ include('templates/header.php');
             <p>Historic:</p>
             <div class="gallery-item__images-track">
                 <div class="gallery-item__images">
-                    <img src="images/IMG_1188.jpg" alt="" loading="lazy"
+                    <img src="images/IMG_1188.JPG" alt="historic house railings restored" loading="lazy"
                         data-caption="After">
-                    <img src="images/IMG_1189.JPG" alt="" loading="lazy"
+                    <img src="images/IMG_1189.JPG" alt="historic house railings" loading="lazy"
                         data-caption="After">
                 </div>
             </div>

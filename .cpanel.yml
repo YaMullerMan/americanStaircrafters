@@ -13,5 +13,7 @@ deployment:
         - /bin/cp products.php $DEPLOYPATH
         - /bin/cp rails.php $DEPLOYPATH
         - /bin/cp stairs.php $DEPLOYPATH
+        - /bin/cp sitemap.xml $DEPLOYPATH
+        - /bin/cp 404.php $DEPLOYPATH
 # this needs to be updated for every new file that gets added
 # the -R is for folders. Deploypath tells it where to send the files on the server

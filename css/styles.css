@@ -43,6 +43,19 @@ h2 {
 	color: red;
 }
 
+.skip-link {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left: -5000px;
+	top: auto;
+	overflow: hidden;
+}
+
+.skip-link:focus {
+	position: static;
+}
+
 /* ----------  header/nav section  ---------- */
 .header-upper {
 	padding: 10px 0;

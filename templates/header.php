@@ -37,11 +37,16 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="American Staircrafters is a stair and handrail expert serving the Washington DC, Frederick, and Western Maryland region. We specialize in custom installation of railings, balusters, newels, and staircases. We also supply products to homeowners and builders.">
+        content="American Staircrafters is a stair and handrail expert serving the Washington DC, Frederick, and Western Maryland region. We specialize in custom installation of railings, balusters, newels, and staircases.">
     <meta name="keywords"
         content="stairs, carpenter, staircrafters, handrails, rail, contractor, american">
+    <meta property="og:url" content="https://www.americanstaircrafters.com/">
+    <meta property="og:site_name" content="American Staircrafters">
+    <meta property="og:title"
+        content="Stairs | Handrails | Carpentry | AmericanStaircrafters.com">
+    <meta property="og:type" content="website">
 
-    <link rel="canonical" content="">
+    <link rel="canonical" href="https://www.americanstaircrafters.com/">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,25 +68,26 @@
 </head>
 
 <body>
+    <a href="#mainContent" tabindex="0" class="skip-link" aria-label="skip to content">Skip to Content</a>
     <header class="header-container">
         <div class="header-upper">
             <!-- change logo to an image (not h1 tag) -->
-            <h1 class="logo">
+            <h2 class="logo">
                 <a href="/">
                     <!-- <span class="newFont"
                         style="color:#a80808;">A</span>merican<br><span
                         class="newFont"
                         style="color:#3759b0;">S</span>taircrafters -->
-                    <img src="images/logo-main.svg" width="140">
+                    <img src="images/logo-main.svg" width="140" alt="american staircrafters logo">
                 </a>
-            </h1>
+            </h2>
             <div class="header-upper__info">
                 <a class="header-upper__info-item" href="mailto:mr6010@aol.com">
-                    <img src="images/icon-mail.svg" alt="mail envelope">
+                    <img src="images/icon-mail.svg" alt="mail envelope icon">
                     <p>EMAIL US</p>
                 </a>
                 <a class="header-upper__info-item" href="tel:301-748-9400">
-                    <img src="images/icon-phone.svg" alt="phone">
+                    <img src="images/icon-phone.svg" alt="phone icon">
                     <p>CALL US</p>
                 </a>
                 <p class="header-upper__number">(301) 748 - 9400</p>

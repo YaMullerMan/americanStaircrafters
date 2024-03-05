@@ -20,7 +20,7 @@ include('templates/header.php');
             <a class="basic-btn" href="stairs.php#stairs-gallery">SEE DAVE'S
                 WORK</a>
         </div>
-        <img src="images/Dad.jpg" class="rails-intro-img">
+        <img src="images/Dad.jpg" class="rails-intro-img" alt="business owner dave muller sitting on a staircase">
     </div>
 </section>
 

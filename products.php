@@ -15,11 +15,11 @@ include('templates/header.php');
             choose. The links are provided for you to browse railing parts. Or,
             give us a call and we can help you choose the parts you need.</p>
         <a href="https://houseofforgings.net" class="product-supplier-btn">
-            <img src="images/house of forgings.png" width="100">
+            <img src="images/house of forgings.png" width="100" alt="house of forgings logo">
         </a>
         <a href="https://www.idealstairparts.com"
             class="product-supplier-btn two">
-            <img src="images/ideallogo.jpeg" width="130">
+            <img src="images/ideallogo.jpeg" width="130" alt="ideal stair parts logo">
         </a>
     </div>
 </section>
